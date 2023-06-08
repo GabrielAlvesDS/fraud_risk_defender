@@ -116,6 +116,3 @@ The company will have a total of **537,418,628.26**
 
 # 10. Next Steps to Improve
 
-# LICENSE
-
-# All Rights Reserved - Comunidade DS 2023
