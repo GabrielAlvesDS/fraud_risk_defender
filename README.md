@@ -87,7 +87,7 @@ Four different types of classification algorithms were used, including:
 
 When testing all four algorithms mentioned above, we calculated several relevant metrics to make a comparison and select the algorithm with the best results for fraud classification, as shown in the table below:
 
-#![models_performances_table](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/models_performances_table.PNG)
+![models_performances_table](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/models_performances_table.PNG)
 
 # 6. Machine Learning Modelo Performance
 
@@ -95,17 +95,19 @@ Analyzing the results of all tested algorithms, I chose the XGBoost Classifier d
 
 We apply Sklearn's GridSearchCV method to identify the optimal parameters for the algorithm. The results obtained were the following:
 
-#![GridSearchCV_final_scores](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/GridSearchCV_final_scores.PNG)
+![GridSearchCV_final_scores](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/GridSearchCV_final_scores.PNG)
 
 **Final XGBoost Confusion Matrix**
-#![Final_model_confusion_matrix](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/Final_model_confusion_matrix.PNG)
+![Final_model_confusion_matrix](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/Final_model_confusion_matrix.PNG)
 
 # 7. Business Results
 
-The company will receive 568,024,814.50 due to transactions truly detected as fraud
-The company will receive 0.00 due to transactions detected as fraud, but actually legitimate
-The company will give back 30,606,186.24 due to transactions detected as legitimate, but actually fraud
-The company will have a total of 537,418,628.26
+- The company will receive 568,024,814.50 due to transactions truly detected as fraud
+- The company will receive 0.00 due to transactions detected as fraud, but actually legitimate
+- The company will give back 30,606,186.24 due to transactions detected as legitimate, but actually fraud
+
+
+The company will have a total of **537,418,628.26**
 
 # 8. Conclusions
 
