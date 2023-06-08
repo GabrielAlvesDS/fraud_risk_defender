@@ -97,7 +97,8 @@ We apply Sklearn's GridSearchCV method to identify the optimal parameters for th
 
 ![GridSearchCV_final_scores](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/GridSearchCV_final_scores.PNG)
 
-**Final XGBoost Confusion Matrix**
+- **Final XGBoost Confusion Matrix**
+
 ![Final_model_confusion_matrix](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/Final_model_confusion_matrix.PNG)
 
 # 7. Business Results
