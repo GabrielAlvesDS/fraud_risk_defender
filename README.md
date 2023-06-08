@@ -95,6 +95,8 @@ Analyzing the results of all tested algorithms, I chose the XGBoost Classifier d
 
 We apply Sklearn's GridSearchCV method to identify the optimal parameters for the algorithm. The results obtained were the following:
 
+- **Final XGBoost Scores**
+
 ![GridSearchCV_final_scores](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/GridSearchCV_final_scores.PNG)
 
 - **Final XGBoost Confusion Matrix**
