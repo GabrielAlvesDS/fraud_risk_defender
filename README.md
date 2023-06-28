@@ -116,6 +116,7 @@ The company will have a total of **537,418,628.26**
 
 This fraud detection project has surpassed expectations by delivering outstanding results, with zero instances of False Negatives. This outcome raised doubts and prompted a thorough analysis to detect any potential data leakage errors, which, despite the analysis, were not found. Consequently, the model successfully captured 89% of the total potential value (in case it correctly identified all fraud cases and incurred no costs due to incorrect classifications).
 
+Later on, I found on Kaggle that other people achieved similar results, largely attributed to the synthetic nature of the dataset.
 # 9. Lessons Learned
 
 Upon encountering a 100% precision in both training and testing, I thoroughly re-evaluated the entire project to detect any potential data leakage. However, I found no evidence of such leakage, confirming that the test data had been properly separated from the training data prior to any analysis. Additionally, I verified that the response variable had not been mistakenly included as part of the explanatory variables during the training phase.
