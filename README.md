@@ -1,7 +1,9 @@
 # FraudRiskDefender
 Projct of detection of fraudulent transactions originating on mobile devices
 
-#### This project was made by Gabriel Alves.
+![cover](https://github.com/GabrielAlvesDS/fraud_risk_defender/blob/main/docs/cover_fraudrisk.png)
+
+<br>
 
 # 1. Business Problem.
 A Blocker Fraud Company is a company specialized in detecting fraud in financial transactions made through mobile devices. The company has a service called "Blocker Fraud" which guarantees the blocking of fraudulent transactions.
